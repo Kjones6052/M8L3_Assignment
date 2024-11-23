@@ -15,16 +15,16 @@ Header section should contain a background image and header text
 Header Text should be bold, contrast color and Centered
 Main Content should contain at least 2 different children divs with content and be arranged vertically stacked on top of one another
 Footer should contain at least 3 sections (i.e. Contact Us, Events, Blog) and be arranged horizontally 
-status: incomplete
+status: COMPLETE
 
 Task 2: Implement Responsive Design Modify your Flexbox layout to include responsive design elements. Use media queries to adjust the layout for smaller screens, 
 converting the navigation and footer content areas into a column format when the viewport width is less than 600px.
-status: incomplete
+status: COMPLETE
 
 Task 3: Enhance the Layout with Flexbox Properties Further enhance your layout by using Flexbox properties such as justify-content, align-items, and flex-grow. Adjust 
 these properties to ensure that the main content area takes up the remaining space between the header and footer, and centers the content within the navigation and main 
 content areas.
-status: incomplete
+status: COMPLETE
 
 2. Building Responsive Layouts with CSS Grid
 Objective: The aim of this assignment is to familiarize students with the CSS Grid layout system and its application in creating responsive web designs. By the end of 
@@ -36,11 +36,11 @@ challenges you to apply CSS Grid techniques to design a responsive web layout th
 
 Task 1: Create a Basic CSS Grid Layout Start by designing a simple web page layout using CSS Grid. Your layout should include a header, a main content area divided into 
 two columns (for content and sidebar), and a footer. Define the grid container and set up the grid template areas.
-status: incomplete
+status: COMPLETE
 
 Task 2: Implement Responsive Design Using CSS Grid Modify your CSS Grid layout to be responsive. Use media queries to change the layout for smaller screens by stacking 
 the content and sidebar vertically instead of horizontally.
-status: incomplete
+status: COMPLETE
 
 Task 3: Advanced Grid Layout with Template Columns and Rows Enhance your grid layout by specifying the size of columns and rows using the grid-template-columns and 
 grid-template-rows properties. Experiment with fractional units (fr) and fixed sizes (e.g., pixels) to create a balanced layout.

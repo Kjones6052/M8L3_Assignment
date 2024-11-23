@@ -1,0 +1,82 @@
+/* Part 1 Task 1: Header with background image, bold centered text with contrast color, also used as footer  */
+header {
+    text-align: center;
+    color: black;
+    background-image: url("./headerbackground.jpg");
+    margin: 25px;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: x-large;
+}
+
+/* Part 1 Task 1: Horizontal Nav bar at top of screen */
+nav li {
+    display: inline;
+}
+nav ul {
+    text-align: center;
+}
+
+/* Part 1 Task 1: Main section with 2 children divs stacked vertically */
+/* Part 1 Task 3: Enhance flexbox using: justify-content, align-items, and flex-grow */
+.main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.main1 img {
+    float: left;
+}
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+.main2 img {
+    float: right;
+}
+
+/* Part 1 Task 2: Apply RWD for viewport less than 600px */
+/* Part 1 Task 3: Enhance flexbox using: justify-content, align-items, and flex-grow */
+@media only screen and (max-width: 600px) {
+    nav {
+        width: 25%;
+    }
+    .main1 {
+        width: 75%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-grow: 1;
+    }
+    .main2 {
+        width: 75%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-grow: 1;
+    }
+    }
+
+/* Part 2 Task 1: Creating a grid container with 2 columns */
+/* Part 2 Task 3: Advanced grid layout using columns, rows, and fractional units */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 80%;
+    grid-template-rows: max-content;
+}
+
+/* Part 2 Task 2: Adjust grid layout for screens under 768px */
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
